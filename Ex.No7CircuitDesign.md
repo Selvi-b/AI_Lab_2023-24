@@ -1,6 +1,6 @@
 # Ex.No: 7  Logic Programming –  Logic Circuit Design
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 23/03/2024                                                                           
+### REGISTER NUMBER :212221060147 
 ### AIM: 
 To write a logic program to design a circuit like half adder and half subtractor.
 ###  Algorithm:
@@ -14,6 +14,18 @@ To write a logic program to design a circuit like half adder and half subtractor
 8. Stop the program.
 
 ### Program:
+```
+and(0,0,0).
+and(0,1,0).
+and(1,1,1).
+and(1,0,0).
+xor(1,1,0).
+xor(0,1,1).
+xor(0,0,0).
+halfadder(A,B,Sum,Carry):-
+    xor(A,B,Sum),
+    and(A,B,Carry).
+```
 
 
 
@@ -26,6 +38,8 @@ To write a logic program to design a circuit like half adder and half subtractor
 
 
 ### Output:
+![WhatsApp Image 2024-04-04 at 21 37 10_bddeee87](https://github.com/DrUmaRaniV/AI_Lab_2023-24/assets/166032806/b208924f-5ed3-41db-b383-d5ed5a76da3f)
+
 
 
 
